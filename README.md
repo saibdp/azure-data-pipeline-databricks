@@ -83,7 +83,7 @@ Use Azure Data Factory to trigger the pipeline.
 Monitor pipeline execution and data flow.
 
 
-## **Requirements**
+## Requirements
 - Azure Subscription
 - Databricks Workspace
 - Azure Data Factory
