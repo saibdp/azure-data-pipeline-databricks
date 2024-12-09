@@ -61,30 +61,32 @@ This repository demonstrates an end-to-end data engineering pipeline leveraging 
 
 
 ## **How to Use**
-1. **Clone the Repository**
 
-- git clone https://github.com/saibdp/azure-data-pipeline-databricks.git
-- cd azure-data-pipeline-databricks
+1. **Clone the Repository**  
+   - Run the following commands in your terminal:  
+     ```bash
+     git clone https://github.com/saibdp/azure-data-pipeline-databricks.git
+     cd azure-data-pipeline-databricks
+     ```
 
-2. **Set Up Azure Resources**
+2. **Set Up Azure Resources**  
+   - Create an Azure Data Lake Storage account.  
+   - Create a Databricks workspace.  
+   - Set up Azure Data Factory and import the pipeline JSON from the `pipeline` folder.  
 
-- Create an Azure Data Lake Storage account.
-- Create a Databricks workspace.
-- Set up Azure Data Factory and import the pipeline JSON from the pipeline folder.
+3. **Run Databricks Notebooks**  
+   - Upload the notebooks from the `notebooks` folder to your Databricks workspace.  
+   - Update configurations such as storage account credentials and paths.  
 
-3. **Run Databricks Notebooks**
+4. **Trigger the Pipeline**  
+   - Use Azure Data Factory to trigger the pipeline.  
+   - Monitor pipeline execution and data flow.  
 
-- Upload the notebooks from the notebooks folder to your Databricks workspace.
-- Update configurations such as storage account credentials and paths.
+---
 
-4. **Trigger the Pipeline**
+## **Requirements**  
 
-Use Azure Data Factory to trigger the pipeline.
-Monitor pipeline execution and data flow.
-
-
-## Requirements
-- Azure Subscription
-- Databricks Workspace
-- Azure Data Factory
-- Python 3.x
+- Azure Subscription  
+- Databricks Workspace  
+- Azure Data Factory  
+- Python 3.x  
